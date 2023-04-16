@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+  letter-spacing: .2px;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+:root {
+  --text-color-primary: black;
+  --background-color-primary: white;
+  --card-color: rgba(233, 233, 233, 0.588);
+  --muted-color: #a9a9a9;
+  --background-picture: url('https://picsum.photos/1500/1000/?image=187');
+  --element-size:2rem;
+  --border: 1px solid black;
+}
+
+:root.dark-theme {
+  --text-color-primary: white;
+  --background-color-primary: black;
+  --card-color: gray;
+  --muted-color: #a9a9a9;
+  --background-picture: url('https://picsum.photos/1500/1000/?image=48');
+  --element-size:2rem;
+  --border: 1px solid white;
+}
